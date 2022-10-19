@@ -1,0 +1,13 @@
+spring:
+  redis:
+    port: 6379
+    host: localhost
+  cache:
+    type: redis
+server:
+  port: 8081
+
+mars:
+  pictures:
+    path: http://localhost:8080
+    largest: /mars/pictures/largest
